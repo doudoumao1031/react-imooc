@@ -5,13 +5,15 @@ import { ChangeEvent, useState } from 'react'
 import 'antd/dist/reset.css'
 import FormElementsDemo from './FormElementsDemo'
 import FormikDemo from './test/FormikDemo'
+import ReactHookFormDemo from './test/ReactHookFormDemo'
 
 function App() {
   return (
     <>
       {/* <RouterProvider router={routerConfig}></RouterProvider> */}
       {/* <FormElementsDemo /> */}
-      <FormikDemo />
+      {/* <FormikDemo /> */}
+      <ReactHookFormDemo />
     </>
   )
 }
